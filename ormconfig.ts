@@ -8,8 +8,8 @@ const config: PostgresConnectionOptions = {
   database: 'olDB',
   host: 'localhost',
   port: 5432,
-  username: 'postgres',
-  password: 'password',
+  username: 'oladmin',
+  password: 'passwordWow',
   entities: [User, Topic, Comment],
   synchronize: true,
 };

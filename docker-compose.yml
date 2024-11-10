@@ -9,8 +9,8 @@ services:
 
     environment:
       - POSTGRES_DB=olDB
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=oladmin
+      - POSTGRES_PASSWORD=passwordWow
 
   adminer:
     image: adminer
